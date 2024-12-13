@@ -1,0 +1,2 @@
+My current user is root
+echo "My current directory is /home/saim/al-nafi-diploma-devops/bash-scripting/advaniced_echo

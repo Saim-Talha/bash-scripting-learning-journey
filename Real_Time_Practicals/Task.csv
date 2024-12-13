@@ -1,0 +1,8 @@
+1,tmpfs,1.6G,2.9M,1.6G,1,/run25-07-24,192.168.100.146,sohaib
+2,/dev/nvme0n1p2,468G,64G,381G,15,/25-07-24,192.168.100.146,sohaib
+3,tmpfs,7.8G,132K,7.8G,1,/dev/shm25-07-24,192.168.100.146,sohaib
+4,tmpfs,5.0M,4.0K,5.0M,1,/run/lock25-07-24,192.168.100.146,sohaib
+5,tmpfs,4.0M,0,4.0M,0,/sys/fs/cgroup25-07-24,192.168.100.146,sohaib
+6,efivarfs,384K,76K,304K,20,/sys/firmware/efi/efivars25-07-24,192.168.100.146,sohaib
+7,/dev/nvme0n1p1,511M,6.1M,505M,2,/boot/efi25-07-24,192.168.100.146,sohaib
+8,tmpfs,1.6G,144K,1.6G,1,/run/user/100025-07-24,192.168.100.146,sohaib

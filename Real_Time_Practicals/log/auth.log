@@ -1,0 +1,355 @@
+Jul 24 11:46:06 sohaib su: (to smmsp) root on none
+Jul 24 11:46:06 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 11:46:06 sohaib systemd: pam_unix(systemd-user:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 11:46:08 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 11:46:47 sohaib gdm-password]: gkr-pam: unable to locate daemon control file
+Jul 24 11:46:47 sohaib gdm-password]: gkr-pam: stashed password to try later in open session
+Jul 24 11:46:47 sohaib gdm-password]: pam_unix(gdm-password:session): session opened for user saim(uid=1000) by (uid=0)
+Jul 24 11:46:47 sohaib systemd-logind[811]: New session 4 of user saim.
+Jul 24 11:46:47 sohaib systemd: pam_unix(systemd-user:session): session opened for user saim(uid=1000) by (uid=0)
+Jul 24 11:46:48 sohaib gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Jul 24 11:46:49 sohaib gnome-keyring-daemon[2986]: The Secret Service was already initialized
+Jul 24 11:46:49 sohaib gnome-keyring-daemon[2986]: The SSH agent was already initialized
+Jul 24 11:46:49 sohaib gnome-keyring-daemon[2986]: The PKCS#11 component was already initialized
+Jul 24 11:46:52 sohaib polkitd(authority=local): Registered Authentication Agent for unix-session:4 (system bus name :1.151 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 24 11:47:00 sohaib gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Jul 24 11:47:00 sohaib systemd-logind[811]: Session c1 logged out. Waiting for processes to exit.
+Jul 24 11:47:00 sohaib systemd-logind[811]: Removed session c1.
+Jul 24 11:47:00 sohaib polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 24 11:47:01 sohaib CRON[3788]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:47:01 sohaib CRON[1780]: pam_unix(cron:session): session closed for user root
+Jul 24 11:47:10 sohaib PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jul 24 11:47:10 sohaib PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jul 24 11:48:01 sohaib CRON[5634]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:48:01 sohaib CRON[3788]: pam_unix(cron:session): session closed for user root
+Jul 24 11:48:01 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 11:48:01 sohaib pkexec[5644]: saim: Executing command [USER=root] [TTY=unknown] [CWD=/home/saim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 11:49:01 sohaib CRON[5738]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:49:01 sohaib CRON[5634]: pam_unix(cron:session): session closed for user root
+Jul 24 11:50:01 sohaib CRON[5796]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:50:01 sohaib CRON[5738]: pam_unix(cron:session): session closed for user root
+Jul 24 11:51:01 sohaib CRON[5915]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:51:01 sohaib CRON[5796]: pam_unix(cron:session): session closed for user root
+Jul 24 11:52:01 sohaib CRON[5936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:52:01 sohaib CRON[5915]: pam_unix(cron:session): session closed for user root
+Jul 24 11:52:27 sohaib sudo:     saim : TTY=pts/0 ; PWD=/home/saim ; USER=root ; COMMAND=/usr/bin/su
+Jul 24 11:52:27 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 11:52:27 sohaib su: (to root) root on pts/1
+Jul 24 11:52:27 sohaib su: pam_unix(su:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 11:53:01 sohaib CRON[6106]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:53:01 sohaib CRON[5936]: pam_unix(cron:session): session closed for user root
+Jul 24 11:54:01 sohaib CRON[6144]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:54:01 sohaib CRON[6106]: pam_unix(cron:session): session closed for user root
+Jul 24 11:55:01 sohaib CRON[6171]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:55:02 sohaib CRON[6144]: pam_unix(cron:session): session closed for user root
+Jul 24 11:56:01 sohaib CRON[6212]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:56:02 sohaib CRON[6171]: pam_unix(cron:session): session closed for user root
+Jul 24 11:57:01 sohaib CRON[6239]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:57:01 sohaib CRON[6212]: pam_unix(cron:session): session closed for user root
+Jul 24 11:58:01 sohaib CRON[6239]: pam_unix(cron:session): session closed for user root
+Jul 24 11:58:01 sohaib CRON[6411]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:59:01 sohaib CRON[6437]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 11:59:01 sohaib CRON[6411]: pam_unix(cron:session): session closed for user root
+Jul 24 12:00:01 sohaib CRON[6437]: pam_unix(cron:session): session closed for user root
+Jul 24 12:00:01 sohaib CRON[6473]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 12:00:01 sohaib CRON[6472]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 12:01:01 sohaib CRON[6545]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 12:01:01 sohaib CRON[6472]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 12:01:01 sohaib CRON[6473]: pam_unix(cron:session): session closed for user root
+Jul 24 12:02:01 sohaib CRON[6545]: pam_unix(cron:session): session closed for user root
+Jul 24 12:02:01 sohaib CRON[6579]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 12:03:01 sohaib CRON[6579]: pam_unix(cron:session): session closed for user root
+Jul 24 12:09:01 sohaib CRON[6777]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 12:09:01 sohaib CRON[6777]: pam_unix(cron:session): session closed for user root
+Jul 24 12:12:59 sohaib sm-mta[6954]: DIGEST-MD5 common mech free
+Jul 24 12:12:59 sohaib sm-mta[6954]: DIGEST-MD5 common mech free
+Jul 24 12:17:01 sohaib CRON[7441]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 12:17:01 sohaib CRON[7441]: pam_unix(cron:session): session closed for user root
+Jul 24 12:20:01 sohaib CRON[7788]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 12:21:01 sohaib CRON[7788]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 12:29:28 sohaib su: pam_unix(su:session): session closed for user root
+Jul 24 12:29:28 sohaib sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 12:30:01 sohaib CRON[9811]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 12:30:01 sohaib CRON[9811]: pam_unix(cron:session): session closed for user root
+Jul 24 12:30:35 sohaib sudo:     saim : TTY=pts/0 ; PWD=/home/saim ; USER=root ; COMMAND=/usr/bin/su
+Jul 24 12:30:35 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 12:30:36 sohaib su: (to root) root on pts/1
+Jul 24 12:30:36 sohaib su: pam_unix(su:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 12:32:19 sohaib su: pam_unix(su:session): session closed for user root
+Jul 24 12:32:19 sohaib sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 12:39:01 sohaib CRON[11060]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 12:39:02 sohaib CRON[11060]: pam_unix(cron:session): session closed for user root
+Jul 24 12:40:01 sohaib CRON[11588]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 12:41:01 sohaib CRON[11588]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 12:42:02 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 12:42:02 sohaib pkexec[12045]: saim: Executing command [USER=root] [TTY=unknown] [CWD=/home/saim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 13:00:01 sohaib CRON[13205]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 13:01:01 sohaib CRON[13205]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 13:09:01 sohaib CRON[13783]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 13:09:01 sohaib CRON[13783]: pam_unix(cron:session): session closed for user root
+Jul 24 13:12:06 sohaib systemd-logind[811]: Lid closed.
+Jul 24 13:12:06 sohaib systemd-logind[811]: Suspending...
+Jul 24 13:36:37 sohaib systemd-logind[811]: Lid opened.
+Jul 24 13:36:37 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 13:36:43 sohaib gdm-password]: gkr-pam: unlocked login keyring
+Jul 24 13:37:27 sohaib CRON[14434]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 13:37:27 sohaib CRON[14434]: pam_unix(cron:session): session closed for user root
+Jul 24 13:37:30 sohaib sudo:     saim : TTY=pts/0 ; PWD=/home/saim ; USER=root ; COMMAND=/usr/bin/su
+Jul 24 13:37:30 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 13:37:30 sohaib su: (to root) root on pts/1
+Jul 24 13:37:30 sohaib su: pam_unix(su:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 13:39:01 sohaib CRON[14571]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 13:39:01 sohaib CRON[14571]: pam_unix(cron:session): session closed for user root
+Jul 24 13:40:01 sohaib CRON[14705]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 13:40:07 sohaib systemd-logind[811]: Lid closed.
+Jul 24 13:40:07 sohaib systemd-logind[811]: Suspending...
+Jul 24 13:44:21 sohaib systemd-logind[811]: Lid opened.
+Jul 24 13:44:21 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 13:44:27 sohaib gdm-password]: gkr-pam: unlocked login keyring
+Jul 24 13:45:11 sohaib CRON[14705]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 14:00:01 sohaib CRON[16172]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 14:01:01 sohaib CRON[16172]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 14:09:01 sohaib CRON[16679]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 14:09:01 sohaib CRON[16679]: pam_unix(cron:session): session closed for user root
+Jul 24 14:14:25 sohaib su: (to smmsp) root on pts/1
+Jul 24 14:14:25 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by saim(uid=0)
+Jul 24 14:14:25 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 14:17:01 sohaib CRON[17155]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 14:17:01 sohaib CRON[17155]: pam_unix(cron:session): session closed for user root
+Jul 24 14:17:29 sohaib su: (to smmsp) root on pts/1
+Jul 24 14:17:29 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by saim(uid=0)
+Jul 24 14:17:29 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 14:17:30 sohaib su: (to smmsp) root on pts/1
+Jul 24 14:17:30 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by saim(uid=0)
+Jul 24 14:17:30 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 14:19:46 sohaib sm-mta[17393]: DIGEST-MD5 common mech free
+Jul 24 14:19:46 sohaib sm-mta[17393]: DIGEST-MD5 common mech free
+Jul 24 14:20:01 sohaib CRON[17411]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 14:21:01 sohaib CRON[17411]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 14:30:01 sohaib CRON[18041]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 14:30:01 sohaib CRON[18041]: pam_unix(cron:session): session closed for user root
+Jul 24 14:34:07 sohaib gdm-password]: gkr-pam: unlocked login keyring
+Jul 24 14:37:38 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 14:37:38 sohaib pkexec[18756]: saim: Executing command [USER=root] [TTY=unknown] [CWD=/home/saim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 14:37:54 sohaib sudo:     saim : TTY=pts/2 ; PWD=/home/saim ; USER=root ; COMMAND=/usr/bin/su
+Jul 24 14:37:54 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 14:37:54 sohaib su: (to root) root on pts/3
+Jul 24 14:37:54 sohaib su: pam_unix(su:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 14:37:55 sohaib su: (to smmsp) root on pts/3
+Jul 24 14:37:55 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by saim(uid=0)
+Jul 24 14:37:55 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 14:39:01 sohaib CRON[18928]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 14:39:01 sohaib CRON[18928]: pam_unix(cron:session): session closed for user root
+Jul 24 14:39:30 sohaib sm-mta[19010]: DIGEST-MD5 common mech free
+Jul 24 14:39:30 sohaib sm-mta[19010]: DIGEST-MD5 common mech free
+Jul 24 14:40:01 sohaib CRON[19038]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 14:41:01 sohaib CRON[19038]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 14:56:14 sohaib systemd-logind[811]: Lid closed.
+Jul 24 14:56:14 sohaib systemd-logind[811]: Suspending...
+Jul 24 15:09:34 sohaib systemd-logind[811]: Lid opened.
+Jul 24 15:09:34 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 15:09:37 sohaib gdm-password]: gkr-pam: unlocked login keyring
+Jul 24 15:15:07 sohaib sm-mta[20719]: DIGEST-MD5 common mech free
+Jul 24 15:15:07 sohaib sm-mta[20719]: DIGEST-MD5 common mech free
+Jul 24 15:17:02 sohaib CRON[20799]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 15:17:02 sohaib CRON[20799]: pam_unix(cron:session): session closed for user root
+Jul 24 15:20:01 sohaib CRON[20909]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 15:21:01 sohaib CRON[20909]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 15:22:15 sohaib sudo:     root : TTY=pts/3 ; PWD=/etc/mail ; USER=root ; COMMAND=/etc/init.d/sendmail restart
+Jul 24 15:22:15 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 15:22:17 sohaib su: (to smmsp) root on none
+Jul 24 15:22:17 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 15:22:17 sohaib systemd: pam_unix(systemd-user:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 15:22:18 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 15:23:05 sohaib sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 15:23:09 sohaib sudo:     root : TTY=pts/3 ; PWD=/etc/mail ; USER=root ; COMMAND=/etc/init.d/sendmail reload
+Jul 24 15:23:09 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 15:23:09 sohaib su: (to smmsp) root on pts/4
+Jul 24 15:23:09 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by root(uid=0)
+Jul 24 15:23:09 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 15:23:09 sohaib su: (to smmsp) root on pts/4
+Jul 24 15:23:09 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by root(uid=0)
+Jul 24 15:23:09 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 15:23:38 sohaib su: (to smmsp) root on pts/1
+Jul 24 15:23:38 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by saim(uid=0)
+Jul 24 15:23:38 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 15:23:44 sohaib sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 15:23:44 sohaib su: pam_unix(su:session): session closed for user root
+Jul 24 15:23:44 sohaib sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 15:26:55 sohaib sudo:     root : TTY=pts/1 ; PWD=/etc/mail ; USER=root ; COMMAND=/etc/init.d/sendmail restart
+Jul 24 15:26:55 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 15:26:58 sohaib su: (to smmsp) root on none
+Jul 24 15:26:58 sohaib su: pam_unix(su:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 15:26:58 sohaib systemd: pam_unix(systemd-user:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 15:26:59 sohaib su: pam_unix(su:session): session closed for user smmsp
+Jul 24 15:28:01 sohaib sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 15:30:01 sohaib CRON[21897]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 15:30:01 sohaib CRON[21897]: pam_unix(cron:session): session closed for user root
+Jul 24 15:31:03 sohaib systemd-logind[811]: Lid closed.
+Jul 24 15:31:03 sohaib systemd-logind[811]: Suspending...
+Jul 24 15:31:20 sohaib systemd-logind[811]: Lid opened.
+Jul 24 15:31:20 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 15:31:38 sohaib gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 24 15:31:38 sohaib systemd-logind[811]: New session c5 of user gdm.
+Jul 24 15:31:38 sohaib systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 24 15:31:42 sohaib polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.590 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 24 15:31:50 sohaib gdm-password]: gkr-pam: unable to locate daemon control file
+Jul 24 15:31:50 sohaib gdm-password]: gkr-pam: stashed password to try later in open session
+Jul 24 15:31:51 sohaib gdm-password]: pam_unix(gdm-password:session): session opened for user sohaib_talha(uid=1001) by (uid=0)
+Jul 24 15:31:51 sohaib systemd-logind[811]: New session 47 of user sohaib_talha.
+Jul 24 15:31:51 sohaib systemd: pam_unix(systemd-user:session): session opened for user sohaib_talha(uid=1001) by (uid=0)
+Jul 24 15:31:51 sohaib gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Jul 24 15:31:52 sohaib gnome-keyring-daemon[22525]: keyring was in an invalid or unrecognized format: /home/sohaib_talha/.local/share/keyrings/default.keyring
+Jul 24 15:31:53 sohaib gnome-keyring-daemon[22525]: The Secret Service was already initialized
+Jul 24 15:31:53 sohaib gnome-keyring-daemon[22525]: The SSH agent was already initialized
+Jul 24 15:31:53 sohaib gnome-keyring-daemon[22525]: The PKCS#11 component was already initialized
+Jul 24 15:31:56 sohaib polkitd(authority=local): Registered Authentication Agent for unix-session:47 (system bus name :1.620 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 24 15:31:57 sohaib gnome-keyring-daemon[22525]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul 24 15:32:02 sohaib gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Jul 24 15:32:02 sohaib systemd-logind[811]: Session c5 logged out. Waiting for processes to exit.
+Jul 24 15:32:02 sohaib systemd-logind[811]: Removed session c5.
+Jul 24 15:32:02 sohaib polkitd(authority=local): Unregistered Authentication Agent for unix-session:c5 (system bus name :1.590, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 24 15:32:11 sohaib PackageKit: uid 1001 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jul 24 15:32:11 sohaib PackageKit: uid 1001 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jul 24 15:32:22 sohaib systemd-logind[811]: Watching system buttons on /dev/input/event16 (TWS (AVRCP))
+Jul 24 15:33:08 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1001)
+Jul 24 15:33:08 sohaib pkexec[24865]: sohaib_talha: Executing command [USER=root] [TTY=unknown] [CWD=/home/sohaib_talha] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 15:33:09 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 15:33:09 sohaib pkexec[24875]: saim: Executing command [USER=root] [TTY=unknown] [CWD=/home/saim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 15:33:20 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 15:33:20 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 15:33:40 sohaib systemd-logind[811]: Watching system buttons on /dev/input/event16 (TWS (AVRCP))
+Jul 24 15:34:16 sohaib systemd-logind[811]: Watching system buttons on /dev/input/event16 (TWS (AVRCP))
+Jul 24 15:34:34 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 15:34:34 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 15:35:22 sohaib systemd-logind[811]: Watching system buttons on /dev/input/event16 (TWS (AVRCP))
+Jul 24 15:39:01 sohaib CRON[26967]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 15:39:01 sohaib CRON[26967]: pam_unix(cron:session): session closed for user root
+Jul 24 15:40:01 sohaib CRON[27287]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 15:41:02 sohaib CRON[27287]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 16:00:01 sohaib CRON[33260]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 16:01:01 sohaib CRON[33260]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 16:09:01 sohaib CRON[35897]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 16:09:01 sohaib CRON[35897]: pam_unix(cron:session): session closed for user root
+Jul 24 16:17:01 sohaib CRON[38330]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 16:17:01 sohaib CRON[38330]: pam_unix(cron:session): session closed for user root
+Jul 24 16:20:01 sohaib CRON[39113]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 16:21:01 sohaib CRON[39113]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 16:30:01 sohaib CRON[43263]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 16:30:01 sohaib CRON[43263]: pam_unix(cron:session): session closed for user root
+Jul 24 16:39:01 sohaib CRON[47939]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 16:39:01 sohaib CRON[47939]: pam_unix(cron:session): session closed for user root
+Jul 24 16:40:01 sohaib CRON[48343]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 16:41:01 sohaib CRON[48343]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 17:00:01 sohaib CRON[54987]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 17:01:01 sohaib CRON[54987]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 17:09:01 sohaib CRON[58678]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 17:09:01 sohaib CRON[58678]: pam_unix(cron:session): session closed for user root
+Jul 24 17:17:01 sohaib CRON[61310]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 17:17:01 sohaib CRON[61310]: pam_unix(cron:session): session closed for user root
+Jul 24 17:20:01 sohaib CRON[62088]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 17:21:01 sohaib CRON[62088]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 17:22:24 sohaib systemd-logind[811]: Lid closed.
+Jul 24 17:22:24 sohaib systemd-logind[811]: Suspending...
+Jul 24 17:22:30 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 17:22:30 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 17:22:30 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 17:22:39 sohaib gnome-keyring-daemon[22525]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul 24 17:22:58 sohaib systemd-logind[811]: Suspending...
+Jul 24 18:13:30 sohaib systemd-logind[811]: Lid opened.
+Jul 24 18:13:30 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 18:13:30 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 18:13:30 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 18:13:32 sohaib CRON[63325]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 18:13:32 sohaib CRON[63325]: pam_unix(cron:session): session closed for user root
+Jul 24 18:13:39 sohaib gnome-keyring-daemon[22525]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul 24 18:14:30 sohaib PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jul 24 18:14:30 sohaib PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jul 24 18:14:33 sohaib PackageKit: uid 1001 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jul 24 18:14:33 sohaib PackageKit: uid 1001 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jul 24 18:17:01 sohaib CRON[66190]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 18:17:01 sohaib CRON[66190]: pam_unix(cron:session): session closed for user root
+Jul 24 18:17:31 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1001)
+Jul 24 18:17:31 sohaib pkexec[66344]: sohaib_talha: Executing command [USER=root] [TTY=unknown] [CWD=/home/sohaib_talha] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 18:17:33 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 18:17:33 sohaib pkexec[66376]: saim: Executing command [USER=root] [TTY=unknown] [CWD=/home/saim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 18:20:01 sohaib CRON[67094]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 18:21:01 sohaib CRON[67094]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 18:30:01 sohaib CRON[69819]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 18:30:01 sohaib CRON[69819]: pam_unix(cron:session): session closed for user root
+Jul 24 18:37:50 sohaib systemd-logind[811]: Lid closed.
+Jul 24 18:37:50 sohaib systemd-logind[811]: Suspending...
+Jul 24 18:57:49 sohaib systemd-logind[811]: Lid opened.
+Jul 24 18:57:49 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 18:57:49 sohaib dbus-daemon[779]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.23" (uid=0 pid=776 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownObject" requested_reply="0" destination=":1.648" (uid=1001 pid=24106 comm="gnome-control-center bluetooth " label="unconfined")
+Jul 24 18:57:49 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 18:59:18 sohaib gdm-password]: gkr-pam: unlocked login keyring
+Jul 24 19:00:01 sohaib CRON[73831]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 19:00:58 sohaib systemd-logind[811]: Watching system buttons on /dev/input/event16 (TWS (AVRCP))
+Jul 24 19:01:01 sohaib CRON[73831]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 19:01:25 sohaib systemd-logind[811]: Watching system buttons on /dev/input/event16 (TWS (AVRCP))
+Jul 24 19:01:28 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1001)
+Jul 24 19:01:28 sohaib pkexec[74375]: sohaib_talha: Executing command [USER=root] [TTY=unknown] [CWD=/home/sohaib_talha] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 19:01:30 sohaib pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 19:01:30 sohaib pkexec[74405]: saim: Executing command [USER=root] [TTY=unknown] [CWD=/home/saim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 24 19:09:01 sohaib CRON[77170]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 19:09:01 sohaib CRON[77170]: pam_unix(cron:session): session closed for user root
+Jul 24 19:12:24 sohaib gnome-keyring-daemon[22525]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul 24 19:17:01 sohaib CRON[80435]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 19:17:01 sohaib CRON[80435]: pam_unix(cron:session): session closed for user root
+Jul 24 19:20:01 sohaib CRON[81728]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 19:21:01 sohaib CRON[81728]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 19:30:01 sohaib CRON[85534]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 19:30:01 sohaib CRON[85534]: pam_unix(cron:session): session closed for user root
+Jul 24 19:39:01 sohaib CRON[88925]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 19:39:01 sohaib CRON[88925]: pam_unix(cron:session): session closed for user root
+Jul 24 19:40:01 sohaib CRON[89347]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 19:41:01 sohaib CRON[89347]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 20:00:01 sohaib CRON[95685]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 20:01:01 sohaib CRON[95685]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 20:09:01 sohaib CRON[98900]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 20:09:01 sohaib CRON[98900]: pam_unix(cron:session): session closed for user root
+Jul 24 20:12:26 sohaib gnome-keyring-daemon[22525]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul 24 20:17:01 sohaib CRON[101337]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 20:17:01 sohaib CRON[101337]: pam_unix(cron:session): session closed for user root
+Jul 24 20:20:01 sohaib CRON[102315]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 20:21:01 sohaib CRON[102315]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 20:21:16 sohaib polkitd(authority=local): Unregistered Authentication Agent for unix-session:47 (system bus name :1.620, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 24 20:21:16 sohaib gdm-password]: pam_unix(gdm-password:session): session closed for user sohaib_talha
+Jul 24 20:21:16 sohaib systemd-logind[811]: Session 47 logged out. Waiting for processes to exit.
+Jul 24 20:21:16 sohaib systemd-logind[811]: Removed session 47.
+Jul 24 20:21:16 sohaib gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 24 20:21:16 sohaib systemd-logind[811]: New session c6 of user gdm.
+Jul 24 20:21:16 sohaib systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 24 20:21:18 sohaib polkitd(authority=local): Registered Authentication Agent for unix-session:c6 (system bus name :1.734 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 24 20:21:26 sohaib systemd-logind[811]: Lid closed.
+Jul 24 20:21:35 sohaib systemd-logind[811]: Suspending...
+Jul 24 20:21:40 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 20:22:08 sohaib systemd-logind[811]: Suspending...
+Jul 24 20:26:29 sohaib systemd-logind[811]: Lid opened.
+Jul 24 20:26:29 sohaib systemd-logind[811]: Operation 'sleep' finished.
+Jul 24 20:26:32 sohaib gdm-password]: gkr-pam: unlocked login keyring
+Jul 24 20:26:42 sohaib gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Jul 24 20:26:42 sohaib systemd-logind[811]: Session c6 logged out. Waiting for processes to exit.
+Jul 24 20:26:42 sohaib systemd-logind[811]: Removed session c6.
+Jul 24 20:26:42 sohaib polkitd(authority=local): Unregistered Authentication Agent for unix-session:c6 (system bus name :1.734, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 24 20:29:43 sohaib sudo:     saim : TTY=pts/2 ; PWD=/home/saim ; USER=root ; COMMAND=/usr/bin/su
+Jul 24 20:29:43 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 20:29:43 sohaib su: (to root) root on pts/3
+Jul 24 20:29:43 sohaib su: pam_unix(su:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 20:30:01 sohaib CRON[103991]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 20:30:01 sohaib CRON[103991]: pam_unix(cron:session): session closed for user root
+Jul 24 20:34:37 sohaib su: pam_unix(su:session): session closed for user root
+Jul 24 20:34:38 sohaib sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 20:34:56 sohaib sudo:     saim : TTY=pts/0 ; PWD=/home/saim ; USER=root ; COMMAND=/usr/bin/su
+Jul 24 20:34:56 sohaib sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 24 20:34:56 sohaib su: (to root) root on pts/1
+Jul 24 20:34:56 sohaib su: pam_unix(su:session): session opened for user root(uid=0) by saim(uid=0)
+Jul 24 20:39:01 sohaib CRON[104219]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 20:39:01 sohaib CRON[104219]: pam_unix(cron:session): session closed for user root
+Jul 24 20:40:01 sohaib CRON[104313]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 20:41:01 sohaib CRON[104313]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 21:00:01 sohaib CRON[105051]: pam_unix(cron:session): session opened for user smmsp(uid=133) by (uid=0)
+Jul 24 21:01:01 sohaib CRON[105051]: pam_unix(cron:session): session closed for user smmsp
+Jul 24 21:09:01 sohaib CRON[105264]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 24 21:09:01 sohaib CRON[105264]: pam_unix(cron:session): session closed for user root

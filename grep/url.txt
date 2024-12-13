@@ -1,0 +1,8 @@
+We have some url example so please find below for your grep command.
+Please check and let me know if you are solving.
+
+http://google.com
+https://google.com
+ftp://mywebserver.net
+ftp://myweb.edu
+https://mywebsite.com

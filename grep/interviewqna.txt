@@ -1,0 +1,10 @@
+hello dear, my server details are as follow
+my jboxx server ip address is 192.168.1.8
+my docker server ip address os 192;168.1.0
+my brodcat address is 255.255.255.0
+Invalid ip ddress 1234.1234.12.1
+We are checking only for grep example
+
+
+
+

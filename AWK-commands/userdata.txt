@@ -1,0 +1,5 @@
+id Name Age username DOB DOD
+1 Ali 27 ali 11 12
+2 ABD 35 abd 13
+3 Kazim 33 kazim 14
+4 Abdeali 32 abdeali 15
